@@ -1,0 +1,8 @@
+{
+  "name": "Valkyrie AMR Pro",
+  "description": "Interactive continuous scroll showcase with HD loop and frame-accurate scroll animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

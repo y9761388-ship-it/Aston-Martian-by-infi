@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    overscroll-behavior-y: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Keep full brightness clean without distracting scrollbar chrome on touch/desktop */
+  html {
+    scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+}
